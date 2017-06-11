@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+  </head>
+  <audio controls>
+  <source src="woodthrush.ogg" type="audio/ogg">
+  <source src="woodthrush.mp3" type="audio/mpeg">
+  Your browser does not support the audio tag.
+</audio>
+  <body>
+  <section class="thermometer">
+  <img src="images/thermometer-512.png"/>
+  <h1>Temperature Convertor</h1>
+    <div class="row" id="farenheit">
+    <p>Faranheit</p>
+      <input type="text" id="inputFtoC"> &deg;F = <span id="solutionFtoC">__&deg;C</span><br>
+      <button id="convertFtoC">Convert</button>
+    </div>
+    <div class="row" id="celsius" >
+    <p>Celsius</p>
+      <input type="text" id="inputCtoF"> &deg;C = <span id="solutionCtoF">__&deg;F</span><br>
+      <button id="convertCtoF">Convert</button>
+    </div>
+   </section>
+    <script type="text/javascript" src="js/project.js"></script>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+.row {
+padding: 40px;
+margin: 0 auto;
+ background: #e7e7e7; 
+ text-align: center;
+ width: 600px; 
+}
+
+body {
+background: url("../images/gorge.jpg");
+background-image: cover;
+background-repeat: no-repeat;
+background-position: center center;
+background-size: 100%;	
+font-family: 'Arvo', serif;
+height: auto;
+
+}
+
+button {
+font-family: 'Arvo', serif;
+color: #0971B2;
+}
+
+.thermometer {
+border-radius: 5px;
+}
+
+#farenheit {
+width: 150px;
+height: 150px;
+border: 2px solid black;
+font-family: 'Arvo', serif;
+font-size: 15px;
+margin: 0 auto;
+margin-bottom: 10px;
+margin-top: 10px;
+font-weight: bolder;
+
+}
+
+#celsius {
+width: 150px;
+height: 150px;
+border: 2px solid black;
+font-family: 'Arvo', serif;
+font-size: 15px;
+margin: 0 auto;
+font-style: bolder;
+
+}
+
+
+
+h1 {
+text-align: center;
+font-family: 'Arvo', serif;
+position: relative;
+padding-right: 500px;
+font-size: 30px;
+}
+
+.thermometer img {
+float: left;
+width: 50px;
+height: 50px;
+padding-left: 450px;
+}
