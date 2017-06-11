@@ -1,3 +1,22 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Bubbler One', sans-serif;
+	font-size: 24px;
+	background-color: aliceblue;
+}
+
 .row {
-  padding: 20px;  
+  padding-top: 450px;
+  padding-left: 300px;
+  float: left;
+  margin: auto;
+}
+
+button {
+	padding: 10px;
+	margin: 10px;
 }
