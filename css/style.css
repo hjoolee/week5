@@ -1,3 +1,43 @@
+body {
+	font-family: 'Codystar', monospace;
+	background: url("../images/pink-blue-gradient.png") center center no-repeat;
+	background-size: 100% 100% cover;
+	text-align: center;
+	font-size: 30px;
+}
+
+h1 {
+	padding: 20px 0px;
+}
+
+h2 {
+	font-size: 32px;
+}
+
 .row {
-  padding: 20px;  
+  /* padding: 50px; */
+  display: flex;
+  justify-content: center;
+}
+/* how to add space after the equal sign and before the converted temp, and between the C/F and buttons? */
+
+button {
+	background: inherit;
+    border: 1px dotted;
+    border-radius: 20px;
+    display: inline-block;
+    /* width: 40%; */
+    padding: 0px 20px;
+}
+
+input[type=text] {
+    background: inherit;
+    border: 1px dotted;
+    border-radius: 20px;
+    width: 15%;
+    text-align: center;
+}
+
+#CtoF {
+	margin-top: 60px;
 }
