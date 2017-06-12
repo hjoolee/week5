@@ -1,3 +1,51 @@
-.row {
-  padding: 20px;  
+* {
+	margin: 0;
+	padding: 0;
 }
+
+#center {
+	width: 350px;
+	height: 280px;
+	margin: 0 auto;
+	margin-top: 10%;
+	padding: 50px;
+	background: rgba(255,255,255,.8);
+	overflow: auto;
+	font-family: Helvetica, sans-serif;
+}
+
+h1 {
+	font-family: Helvetica, sans-serif;
+	font-size: 30px;
+	margin-bottom: 1px;
+}
+
+h2 {
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+#convertFtoC {
+	background-color: #016fca;
+	color: white;
+}
+
+#convertCtoF {
+	background-color: #fd6a1a;
+	color: white;
+}
+
+.row {
+	overflow: auto;
+  padding: 20 0 px;  
+  margin-bottom: 20px;
+}
+
+button {
+	padding: 5px;
+	margin-top: 5px;
+}
+
+body {
+	background: url(../images/img.png) top center no-repeat;
+	background-size: cover;
