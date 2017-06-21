@@ -1,3 +1,31 @@
-.row {
-  padding: 20px;  
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+*{
+	font-family: 'Montserrat', sans-serif;
 }
+
+.row {
+  padding: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 100px;
+  color: grey;
+}
+
+body {
+	background-image: url(../image/sky.jpg);
+}
+
+div {
+	background: rgba(225, 225, 225, 0.6);
+	width: 280px;
+	height: auto;
+	border-radius: 10px;
+}
+
+button {
+	color: grey;
+	margin-top: 10px;
+    margin-left: 95px;
+}
+
